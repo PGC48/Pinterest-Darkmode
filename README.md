@@ -15,7 +15,7 @@ A browser extension that applies a beautiful and eye-friendly dark theme to Pint
 
 1.  Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+    https://github.com/PGC48/Pinterest-Darkmode.git
     ```
 2.  Open your browser and navigate to the extensions management page (e.g., `chrome://extensions` for Chrome).
 3.  Enable "Developer mode".

@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Pinterest Dark Mode",
+  "version": "1.0",
+  "description": "Beautiful dark theme for Pinterest - Easy on the eyes, perfect for night browsing",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "*://www.pinterest.com/*",
+    "*://pinterest.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Pinterest Dark Mode"
+  },
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.pinterest.com/*", "*://pinterest.com/*"],
+      "css": ["main.css"],
+      "js": ["content.js", "main.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

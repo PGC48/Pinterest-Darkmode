@@ -1,0 +1,105 @@
+/* All styles will only apply when the <html> tag has the class "dark-mode-on" */
+.dark-mode-on {
+	--pdt-d1: rgb(20, 20, 20);
+	--pdt-d2: rgb(27, 27, 27);
+	--pdt-d3: rgb(30, 30, 30);
+	--pdt-l1: white;
+	--pdt-l2: white;
+	--pdt-l3: white;
+}
+
+.dark-mode-on body {
+	--g-colorSchemeName: darkMode;
+	--color-text-default: var(--pdt-l1);
+	--color-text-subtle: var(--pdt-l1);
+	--color-icon-subtle: var(--pdt-l1);
+	--color-icon-default: var(--pdt-l1);
+	--sema-color-text-default: var(--pdt-l1);
+	--sema-color-icon-default: var(--pdt-l1);
+	--color-background-default: var(--pdt-d1);
+	--color-background-box-default: var(--pdt-d1);
+	--color-background-button-secondary-default: var(--pdt-d3);
+	--color-background-button-secondary-hover: var(--pdt-d4);
+	--color-background-tabs-default-base: var(--pdt-d1);
+	--color-background-tabs-default-hover: var(--pdt-d3);
+	--color-background-tabs-default-active: var(--pdt-d4);
+	--color-border-popover-primary: var(--pdt-d1);
+	--color-background-popover-primary: var(--pdt-d2);
+	--color-background-box-secondary: var(--pdt-d3);
+	--color-background-overlay: var(--pdt-d3);
+	--color-background-box-darkwash: var(--pdt-d4);
+	--color-background-button-white-default: var(--pdt-d3);
+	--color-background-button-white-hover: var(--pdt-d4);
+	--color-background-formfield-primary: var(--pdt-d3);
+	--color-background-combobox-item-hover: var(--pdt-d4);
+	--color-background-tag-primary-default: var(--pdt-d2);
+	--color-text-formfield-default: var(--pdt-l1);
+	--color-background-box-warning-weak: var(--pdt-d2);
+	--color-background-box-lightwash: var(--pdt-d3);
+	--color-background-box-light: var(--pdt-d3);
+	--color-background-switch-default-selected: var(--pdt-l1);
+	--color-background-switch-default-unselected: var(--pdt-d2);
+	--color-background-selected-base: var(--pdt-l1);
+	--color-background-box-selected: var(--pdt-d4);
+	--color-background-button-tertiary-hover: var(--pdt-d2);
+	--color-background-secondary-base: var(--pdt-d2);
+	--color-text-dark: var(--pdt-l1);
+	--color-border-container: var(--pdt-d3);
+	--color-icon-dark: var(--pdt-l1);
+	--color-background-datepicker-container: var(--pdt-d1);
+	--color-background-formfield-primary: var(--pdt-d2);
+	--color-background-mask-wash: rgb(from var(--pdt-l1) r g b / 4%);
+	--color-text-inverse: white;
+	--color-background-button-disabled-default: var(--pdt-d3);
+	background-color: var(--pdt-d1) !important;
+	color: var(--pdt-l1);
+}
+
+.dark-mode-on input,
+.dark-mode-on textarea,
+.dark-mode-on #searchBoxContainer>div {
+	color: var(--pdt-l1) !important;
+	background-color: var(--pdt-d2) !important;
+}
+
+.dark-mode-on select option {
+	background-color: var(--pdt-d1);
+}
+
+.dark-mode-on .imm {
+    background-color: var(--pdt-d1) !important;
+}
+
+.dark-mode-on .V0G {
+    background-color: var(--pdt-d2) !important;
+}
+
+.dark-mode-on .U7n.jEe {
+    background-color: var(--pdt-d3) !important;
+}
+
+.dark-mode-on .U7n, .dark-mode-on .U7n.JEu {
+    background-color: red !important;
+}
+
+.dark-mode-on .Ch2 {
+    color: white !important;
+}
+
+.dark-mode-on .qiB > div {
+    background-color: var(--pdt-d1) !important;
+}
+
+
+.dark-mode-on .a_A  {
+    background-color: red !important;
+}
+
+.dark-mode-on .KS5.hs0.un8.C9i.TB_ .X8m {
+    color: white;
+    mix-blend-mode: difference;
+}
+
+.dark-mode-on .haa {
+    background-color: red !important;
+}
